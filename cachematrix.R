@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
          get_inv = get_inv)
 }
 
-
-## Write a short comment describing this function
+# The following function creates the cache of the computed inverse 
+    # of a given matrix
 
 cacheSolve <- function(x, ...) {
     inv <- x$get_inv()
